@@ -1,4 +1,4 @@
-package com.example.navigation.ui.slideshow
+package com.example.navigation.ui.corporate_management
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

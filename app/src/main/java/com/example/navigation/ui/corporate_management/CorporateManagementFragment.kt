@@ -1,4 +1,4 @@
-package com.example.navigation.ui.slideshow
+package com.example.navigation.ui.corporate_management
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.navigation.databinding.FragmentSlideshowBinding
+import com.example.navigation.databinding.FragmentCorporateManagementBinding
 
 class CorporateManagementFragment : Fragment() {
 
-    private var _binding: FragmentSlideshowBinding? = null
+    private var _binding: FragmentCorporateManagementBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,15 +23,15 @@ class CorporateManagementFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val workWithUsViewModel =
-            ViewModelProvider(this).get(ContactViewModel::class.java)
+            ViewModelProvider(this).get(CorporateManagementViewModel::class.java)
 
-        _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+        _binding = FragmentCorporateManagementBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
+        /*val textView: TextView = binding.textSlideshow
         workWithUsViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
-        }
+        }*/
         return root
     }
 
