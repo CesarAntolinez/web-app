@@ -24,7 +24,7 @@
                 android:paddingVertical="20dp"
                 android:text="Recolección y Aprovechamiento de Materiales Reciclables"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/withe"
                 android:textSize="20sp" />
 
             <LinearLayout
