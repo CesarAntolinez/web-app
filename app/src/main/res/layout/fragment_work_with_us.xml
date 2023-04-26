@@ -1,14 +1,340 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.work_with_us.WorkWithUsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="@color/secondary"
+                android:paddingVertical="20dp"
+                android:text="Recolección y Aprovechamiento de Materiales Reciclables"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/madera" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textTitleOne"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Madera"
+                        android:textAlignment="center" />
+
+
+                    <TextView
+                        android:id="@+id/textViewOneOne"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Estibas" />
+
+                    <TextView
+                        android:id="@+id/textViewOneTwo"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tablas" />
+
+                    <TextView
+                        android:id="@+id/textViewOneThree"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tablones" />
+
+                    <TextView
+                        android:id="@+id/textViewOneFour"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Madera de diferente medida" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textTitleTwo"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Plástico"
+                        android:textAlignment="center" />
+
+
+                    <TextView
+                        android:id="@+id/textViewTwoOne"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Retal" />
+
+                    <TextView
+                        android:id="@+id/textViewTwoTwo"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tapas" />
+
+                    <TextView
+                        android:id="@+id/textViewTwoThree"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bolsa" />
+
+                    <TextView
+                        android:id="@+id/textViewTwoFour"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Botellas" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageViewTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/plastico" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/carbon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textTitleThree"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cartón"
+                        android:textAlignment="center" />
+
+
+                    <TextView
+                        android:id="@+id/textViewThreeOne"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Plegadiza" />
+
+                    <TextView
+                        android:id="@+id/textViewThreeTwo"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Láminas de cartón" />
+
+                    <TextView
+                        android:id="@+id/textViewThreeThree"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tetra Pack" />
+
+                    <TextView
+                        android:id="@+id/textViewThreeFour"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Polyboard" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textTitleFour"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Papel"
+                        android:textAlignment="center" />
+
+
+                    <TextView
+                        android:id="@+id/textViewFourOne"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Archivo" />
+
+                    <TextView
+                        android:id="@+id/textViewFourTwo"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Periódico" />
+
+                    <TextView
+                        android:id="@+id/textViewFourThree"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kraft" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageViewFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/papel" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/material_metalico" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textTitleFive"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Material Metálico"
+                        android:textAlignment="center" />
+
+
+                    <TextView
+                        android:id="@+id/textViewFiveOne"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Aluminio" />
+
+                    <TextView
+                        android:id="@+id/textViewFiveTwo"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hierro" />
+
+                    <TextView
+                        android:id="@+id/textViewFiveThree"
+                        style="@style/textItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Otros" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/contactSubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Generamos certificado de aprovechamiento."
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/contactTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="¿Estas interesado?"
+                android:textColor="@color/black"
+                android:textFontWeight="700"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/contactIfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Escríbenos a reciclajesavilla@hotmail.com para obtener más información."
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

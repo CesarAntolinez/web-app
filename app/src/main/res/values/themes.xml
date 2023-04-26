@@ -22,4 +22,12 @@
     <style name="Theme.Navigation.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Navigation.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="textItem">
+        <item name="android:textSize">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>
