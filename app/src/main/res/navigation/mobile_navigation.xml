@@ -12,6 +12,24 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_vision"
+        android:name="com.example.navigation.ui.vision.VisionFragment"
+        android:label="@string/menu_mision"
+        tools:layout="@layout/fragment_principal_home" />
+
+    <fragment
+        android:id="@+id/nav_coporate_values"
+        android:name="com.example.navigation.ui.valores.ValoresFragment"
+        android:label="@string/menu_valores"
+        tools:layout="@layout/fragment_coporate_values" />
+
+    <fragment
+        android:id="@+id/nav_site"
+        android:name="com.example.navigation.ui.sedes.SedeFragment"
+        android:label="@string/menu_sedes"
+        tools:layout="@layout/fragment_site" />
+
+    <fragment
         android:id="@+id/nav_work_with_us"
         android:name="com.example.navigation.ui.work_with_us.WorkWithUsFragment"
         android:label="@string/menu_work_with_us"
