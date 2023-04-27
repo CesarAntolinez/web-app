@@ -11,8 +11,11 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
-    <string name="menu_work_with_us">Trabaja con nosotros</string>
-    <string name="menu_corporate_management">Gestión corporativa</string>
+    <string name="menu_mision">Visión y Misión</string>
+    <string name="menu_valores">Principios y Valores</string>
+    <string name="menu_sedes">Sedes</string>
+    <string name="menu_work_with_us">Materiales</string>
+    <string name="menu_corporate_management">Compromiso</string>
     <string name="menu_contact">Contacto</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

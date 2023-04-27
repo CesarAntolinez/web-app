@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CorporateValues.CoporateValuesFragment">
+
+    <FrameLayout
+        android:layout_width="382dp"
+        android:layout_height="703dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="701dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Principios y Valores"
+                android:textColor="@color/black"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Nuestros principios y valores definen quienes somos, en lo que pensamos, para saber cómo debemos interactuar con nuestro equipo de trabajo y clientes"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="left"
+                android:text="1. Servicio: Hacer la vida más placentera a los demás."
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="2. Lealtad: Somos fieles en lo que hacemos."
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="3. Compromiso: Cuidar nuestra fuente de vida."
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="4. Preservación: Nuestro entorno y bienes naturales."
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="5. Calidad: Procedimientos organizados, planeados y controlados en toda su etapa de transformacióbn. "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="158dp"
+                android:layout_height="166dp"
+                android:layout_gravity="center"
+                android:src="@drawable/valores" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="375dp"
+        android:layout_height="704dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="14dp">
+
+        <LinearLayout
+            android:layout_width="371dp"
+            android:layout_height="701dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Misión"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Contribuir en la recuperación de la madera y afines, aportando en la preservación del medio ambiente y los recursos naturales, realizando y ejecutando proyectos que surjan desde un pensamiento ecológico y sostenible, en beneficio de las personas y el entorno, de manera normativa, con calidad y ambiente de familia."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="141dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mision" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Visión"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Ser una empresa sostenible en la recuperación y nuevo uso de la madera y afines, preocupada por conservar el ambiente, con desarrollo económico, construyendo una conciencia humanista y ambientalista, que reconozca la obra de Dios en el cuidado del planeta."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="141dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vision" />
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.site.SiteFragment">
+
+    <FrameLayout
+        android:layout_width="382dp"
+        android:layout_height="703dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="701dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Sedes"
+                android:textColor="@color/black"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="¿Dónde estamos ubicados?"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="325dp"
+                android:layout_height="267dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mapa" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="Bogotá"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="Cra 86B # 42-06 Sur, Bogotá DC."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="Horarios de Atención"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="Lunes - Viernes: 7 AM - 5 pm"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="Sábado: 7 AM - 1 PM"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:text="Domingo: Cerrado"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

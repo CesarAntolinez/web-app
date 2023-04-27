@@ -6,8 +6,21 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_home"
             android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_principal_home"
+            android:icon="@drawable/balance"
+            android:title="@string/menu_mision" />
+        <item
+            android:id="@+id/nav_coporate_values"
+            android:icon="@drawable/principles_values"
+            android:title="@string/menu_valores" />
+        <item
+            android:id="@+id/nav_site"
+            android:icon="@drawable/location"
+            android:title="@string/menu_sedes" />
+
         <item
             android:id="@+id/nav_work_with_us"
             android:icon="@drawable/ic_menu_apartment"
